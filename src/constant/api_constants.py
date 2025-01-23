@@ -9,5 +9,5 @@ class APIconstants:
     def url_create_token(self):
         return "https://restful-booker.herokuapp.com/auth"
 
-PRINT("HELLO")
+
 
