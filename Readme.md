@@ -11,7 +11,7 @@ Test Data - CSV, Excel
 Parallel Execution - x distribute (xdist)
 Advance API Testcase - jsonschema
 How to Install Packages
-
+ 
 pip install requests pytest pytest-html faker allure-pytest jsonschema
 How to run your Testcase Parallel pip install pytest-xdist 
 
