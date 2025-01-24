@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79ef3ee-fc1b-49c6-9ecb-000b2a7c3598" name="Changes" comment="new repo" />
+    <list default="true" id="c79ef3ee-fc1b-49c6-9ecb-000b2a7c3598" name="Changes" comment="24 jan">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_get_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/tets_delete_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/end3end/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/80d2c4da-de6a-46a8-9791-a26a4de46940-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/893f2b67-1509-4d2b-aea7-d279f2f4601d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/94d444b1-90df-4f0b-98f1-dc750b911e19-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constant/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant/api_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,16 +60,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for payload_manager.test_payload_create_token.executor": "Run",
+    "Python tests.Python tests for test_e2e.TestE2e.test_delete_booking_id.executor": "Run",
+    "Python tests.Python tests for test_e2e.TestE2e.test_update_booking_with_id_token.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\Automation_framework_1" />
+      <recent name="C:\Users\DELL\PycharmProjects\Automation_framework_1\src" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="https://private-user-images.githubusercontent.com/1409610/354955159-3c7d5fe5-207a-42e7-84fe-f4d53354d987.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc2MTg0NTIsIm5iZiI6MTczNzYxODE1MiwicGF0aCI6Ii8xNDA5NjEwLzM1NDk1NTE1OS0zYzdkNWZlNS0yMDdhLTQyZTctODRmZS1mNGQ1MzM1NGQ5ODcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMjNUMDc0MjMyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Y2QwNmM2NzNkNDk4MTNhMjM3YmIwODY0YjljOWI3YjVhNjM1NGMwMDZlYTM4MzA2YzJhYzM1ZjUxNjQzZDk1NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.SOAbBFDh9-5H-UzpfyiwObFbu9wbwY2v2iA3xPinYUk" />
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e.TestE2e.test_delete_booking_id">
+    <configuration name="Python tests for payload_manager.test_payload_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automation_framework_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;payload_manager.test_payload_create_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_e2e.TestE2e.test_delete_booking_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automation_framework_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/end3end" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.TestE2e.test_delete_booking_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_e2e.TestE2e.test_update_booking_with_id_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automation_framework_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/end3end" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.TestE2e.test_update_booking_with_id_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_e2e.TestE2e.test_delete_booking_id" />
+        <item itemvalue="Python tests.Python tests for test_e2e.TestE2e.test_update_booking_with_id_token" />
+        <item itemvalue="Python tests.Python tests for payload_manager.test_payload_create_token" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,11 +198,20 @@
       <option name="project" value="LOCAL" />
       <updated>1737659511059</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="24 jan">
+      <option name="closed" value="true" />
+      <created>1737711347111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737711347111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="new repo" />
+    <MESSAGE value="24 jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="24 jan" />
   </component>
 </project>

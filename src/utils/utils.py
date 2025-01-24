@@ -15,12 +15,14 @@ class Utils(object):
         }
         return headers
 
-    def common_header_put_patch_delete_basic_cookie(self, token):
+    def common_header_put_patch_delete_cookie(self, token):
         headers = {
             "Content-Type": "application/json",
             "Cookie": "token=" + str(token),
         }
         return headers
+
+
 
     def common_header_put_patch_delete_basic_auth(self, basic_auth_value):
         headers = {

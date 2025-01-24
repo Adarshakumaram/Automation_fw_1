@@ -30,8 +30,8 @@ def put_requests(url,auth,headers,payload,in_json):
         return put_response.json()
     return put_response
 
-def delete_requests(url,auth,headers,payload,in_json):
-    delete_response= requests.delete(url=url,auth=auth,headers=headers,data=json.dumps(payload))
+def delete_requests(url,auth,headers,in_json):
+    delete_response= requests.delete(url=url,auth=auth,headers=headers)
     #json.dumps - convert str to json
     if in_json:
         return delete_response.json()
